@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051F12E51ED0054100047E11 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F12E31ED0054100047E11 /* TestViewController.swift */; };
+		051F12E61ED0054100047E11 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 051F12E41ED0054100047E11 /* TestViewController.xib */; };
+		051F12E81ED0059400047E11 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051F12E71ED0059400047E11 /* Test.swift */; };
 		05D857BE1ECEF80F00E4CBE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D857BD1ECEF80F00E4CBE9 /* AppDelegate.swift */; };
 		05D857C01ECEF80F00E4CBE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D857BF1ECEF80F00E4CBE9 /* ViewController.swift */; };
 		05D857C31ECEF80F00E4CBE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D857C11ECEF80F00E4CBE9 /* Main.storyboard */; };
@@ -14,6 +17,10 @@
 		05D857C81ECEF80F00E4CBE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D857C61ECEF80F00E4CBE9 /* LaunchScreen.storyboard */; };
 		05D857D31ECEF80F00E4CBE9 /* SwiftStudyDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D857D21ECEF80F00E4CBE9 /* SwiftStudyDemoTests.swift */; };
 		05D857DE1ECEF80F00E4CBE9 /* SwiftStudyDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D857DD1ECEF80F00E4CBE9 /* SwiftStudyDemoUITests.swift */; };
+		05D857F61ECF0BBE00E4CBE9 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D857F41ECF0BBE00E4CBE9 /* ButtonViewController.swift */; };
+		05D857F71ECF0BBE00E4CBE9 /* ButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05D857F51ECF0BBE00E4CBE9 /* ButtonViewController.xib */; };
+		05D857FA1ECF0C0000E4CBE9 /* LabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D857F81ECF0C0000E4CBE9 /* LabelViewController.swift */; };
+		05D857FB1ECF0C0000E4CBE9 /* LabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05D857F91ECF0C0000E4CBE9 /* LabelViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		051F12E31ED0054100047E11 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		051F12E41ED0054100047E11 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		051F12E71ED0059400047E11 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		05D857BA1ECEF80F00E4CBE9 /* SwiftStudyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D857BD1ECEF80F00E4CBE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05D857BF1ECEF80F00E4CBE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,10 @@
 		05D857D91ECEF80F00E4CBE9 /* SwiftStudyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftStudyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D857DD1ECEF80F00E4CBE9 /* SwiftStudyDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStudyDemoUITests.swift; sourceTree = "<group>"; };
 		05D857DF1ECEF80F00E4CBE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05D857F41ECF0BBE00E4CBE9 /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		05D857F51ECF0BBE00E4CBE9 /* ButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonViewController.xib; sourceTree = "<group>"; };
+		05D857F81ECF0C0000E4CBE9 /* LabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelViewController.swift; sourceTree = "<group>"; };
+		05D857F91ECF0C0000E4CBE9 /* LabelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +113,13 @@
 			children = (
 				05D857BD1ECEF80F00E4CBE9 /* AppDelegate.swift */,
 				05D857BF1ECEF80F00E4CBE9 /* ViewController.swift */,
+				05D857F81ECF0C0000E4CBE9 /* LabelViewController.swift */,
+				05D857F91ECF0C0000E4CBE9 /* LabelViewController.xib */,
+				05D857F41ECF0BBE00E4CBE9 /* ButtonViewController.swift */,
+				05D857F51ECF0BBE00E4CBE9 /* ButtonViewController.xib */,
+				051F12E71ED0059400047E11 /* Test.swift */,
+				051F12E31ED0054100047E11 /* TestViewController.swift */,
+				051F12E41ED0054100047E11 /* TestViewController.xib */,
 				05D857C11ECEF80F00E4CBE9 /* Main.storyboard */,
 				05D857C41ECEF80F00E4CBE9 /* Assets.xcassets */,
 				05D857C61ECEF80F00E4CBE9 /* LaunchScreen.storyboard */,
@@ -232,8 +253,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05D857FB1ECF0C0000E4CBE9 /* LabelViewController.xib in Resources */,
+				05D857F71ECF0BBE00E4CBE9 /* ButtonViewController.xib in Resources */,
 				05D857C81ECEF80F00E4CBE9 /* LaunchScreen.storyboard in Resources */,
 				05D857C51ECEF80F00E4CBE9 /* Assets.xcassets in Resources */,
+				051F12E61ED0054100047E11 /* TestViewController.xib in Resources */,
 				05D857C31ECEF80F00E4CBE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				051F12E51ED0054100047E11 /* TestViewController.swift in Sources */,
 				05D857C01ECEF80F00E4CBE9 /* ViewController.swift in Sources */,
+				05D857FA1ECF0C0000E4CBE9 /* LabelViewController.swift in Sources */,
 				05D857BE1ECEF80F00E4CBE9 /* AppDelegate.swift in Sources */,
+				05D857F61ECF0BBE00E4CBE9 /* ButtonViewController.swift in Sources */,
+				051F12E81ED0059400047E11 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +531,7 @@
 				05D857E41ECEF80F00E4CBE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05D857E51ECEF80F00E4CBE9 /* Build configuration list for PBXNativeTarget "SwiftStudyDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +540,7 @@
 				05D857E71ECEF80F00E4CBE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05D857E81ECEF80F00E4CBE9 /* Build configuration list for PBXNativeTarget "SwiftStudyDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +549,7 @@
 				05D857EA1ECEF80F00E4CBE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
