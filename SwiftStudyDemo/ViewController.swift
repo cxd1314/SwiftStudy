@@ -14,10 +14,12 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        self.navigationItem.title = "UI基本控件"
         let tableView:UITableView = UITableView.init(frame: CGRect.init(x: 10, y: 10, width:300, height: 500), style: UITableViewStyle.plain)
         tableView.dataSource = self
         tableView.delegate = self
         self.view.addSubview(tableView)
+        
         
 //        var button:UIButton;
 //        button = UIButton.init(type: UIButtonType.custom)
@@ -40,7 +42,7 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2;
+        return 3;
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -49,7 +51,7 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
             cell = UITableViewCell.init(style: UITableViewCellStyle.default, reuseIdentifier: "id")
 
         }
-        var titleArr:[NSString] = ["label","button"];
+        var titleArr:[NSString] = ["label","button","imageView"];
         cell?.textLabel?.text = titleArr[indexPath.row] as String
         return cell!
     }
@@ -59,10 +61,18 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
             
                 let labelVC:LabelViewController = LabelViewController.init()
                 
-                self.present(labelVC, animated: true, completion: nil)
+                self.navigationController?.pushViewController(labelVC, animated: true)
+            break
+        case 1:
+            
+            let buttonVC:ButtonViewController = ButtonViewController.init()
+                self.navigationController?.pushViewController(buttonVC, animated: true)
             
             break
         default:
+            let imageViewVC:UIImageViewViewController = UIImageViewViewController.init()
+            
+            self.navigationController?.pushViewController(imageViewVC, animated: true)
             break
         }
     }

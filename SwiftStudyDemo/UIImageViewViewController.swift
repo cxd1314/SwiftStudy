@@ -1,25 +1,22 @@
 //
-//  ButtonViewController.swift
+//  UIImageViewViewController.swift
 //  SwiftStudyDemo
 //
-//  Created by caixiaodong on 2017/5/19.
+//  Created by caixiaodong on 2017/5/23.
 //  Copyright © 2017年 cssweb. All rights reserved.
 //
 
 import UIKit
 
-class ButtonViewController: UIViewController {
+class UIImageViewViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let imageView = UIImageView.init(frame: CGRect.init(x: 10, y: 10, width: 100, height: 100))
+        imageView.image = UIImage.init(named: "2.jpg")
+        self.view.addSubview(imageView)
+        
         // Do any additional setup after loading the view.
-        var button:UIButton;
-        button = UIButton.init(type: UIButtonType.custom)
-        button.frame = CGRect.init(x: 20, y: 100, width: 100, height: 30)
-        button.setTitle("点击我", for: UIControlState.normal)
-        button.setTitleColor(UIColor.black, for: UIControlState.normal)
-        self.view.addSubview(button)
     }
 
     override func didReceiveMemoryWarning() {
